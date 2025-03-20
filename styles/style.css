@@ -128,9 +128,7 @@
     padding: 1rem;
     border-radius: 0.5rem;
   }
-  courses div &.completed {
-    background-color: #1d3461;
-    color: #fff;
+  courses div &.completed { background-color: #1d3461; color: #fff; 
   }
   
   footer {
@@ -179,7 +177,4 @@
     }
   }
 
-  img {
-    max-width: 100%;
-    height: auto;
-}
+  
