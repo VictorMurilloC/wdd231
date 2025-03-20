@@ -152,10 +152,8 @@
     header {
       display: block;
     }
-    header h1 {
-      img {
-        width: 150px;
-      }
+    header h1 img { 
+      width: 150px;
     }
     header #menu {
       display: none;
