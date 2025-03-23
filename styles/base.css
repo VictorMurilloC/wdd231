@@ -317,8 +317,8 @@ footer {
 }
 
 footer img {
-    width: 25px;
-    height: 25px;
+    width: 50px;
+    height: 50px;
 }
 
 footer #box2, footer #box1 {
@@ -381,7 +381,6 @@ main p {
         flex-direction: row;
         justify-content: space-between;
         align-items: center;
-
     }
 
     footer #box2 {
@@ -395,8 +394,6 @@ main p {
         flex-direction: row;
         justify-content: space-between;
         justify-content: space-around;
-        font-size: 12px;
-        text-align: center;
     }
 
     main div.grid {
