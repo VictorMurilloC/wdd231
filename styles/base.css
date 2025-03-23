@@ -394,6 +394,8 @@ main p {
         flex-direction: row;
         justify-content: space-between;
         justify-content: space-around;
+        font-size: 12px;
+        text-align: center;
     }
 
     main div.grid {
