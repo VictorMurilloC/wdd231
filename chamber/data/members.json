@@ -1,0 +1,72 @@
+[
+    {
+        "name": "Tech Innovators Inc.",
+        "address": "123 Silicon Valley Blvd, San Francisco, CA 94016",
+        "phone": "(415) 555-1234",
+        "website": "https://www.techinnovators.com",
+        "image": "tech_innovators.png",
+        "membership_level": 3,
+        "industry": "Technology",
+        "founded": 2005
+    },
+    {
+        "name": "Green Earth Solutions",
+        "address": "456 Eco Way, Seattle, WA 98101",
+        "phone": "(206) 555-5678",
+        "website": "https://www.greenearth.com",
+        "image": "green_earth.png",
+        "membership_level": 2,
+        "industry": "Environmental Services",
+        "founded": 2012
+    },
+    {
+        "name": "Blue Ocean Shipping",
+        "address": "789 Maritime St, Miami, FL 33130",
+        "phone": "(305) 555-9101",
+        "website": "https://www.blueocean.com",
+        "image": "blue_ocean.jpg",
+        "membership_level": 3,
+        "industry": "Logistics & Shipping",
+        "founded": 1998
+    },
+    {
+        "name": "Peak Performance Gym",
+        "address": "135 Fitness Ave, Denver, CO 80202",
+        "phone": "(720) 555-2233",
+        "website": "https://www.peakperformancegym.com",
+        "image": "peak_performance.png",
+        "membership_level": 1,
+        "industry": "Health & Fitness",
+        "founded": 2010
+    },
+    {
+        "name": "Tasty Bites Catering",
+        "address": "678 Gourmet Lane, New York, NY 10001",
+        "phone": "(212) 555-3344",
+        "website": "https://www.tastybites.com",
+        "image": "tasty_bites.jpg",
+        "membership_level": 2,
+        "industry": "Food & Catering",
+        "founded": 2015
+    },
+    {
+        "name": "Bright Future Education",
+        "address": "234 Knowledge Rd, Boston, MA 02108",
+        "phone": "(617) 555-4455",
+        "website": "https://www.brightfutureedu.com",
+        "image": "bright_future.png",
+        "membership_level": 3,
+        "industry": "Education",
+        "founded": 2000
+    },
+    {
+        "name": "Cityscape Architects",
+        "address": "890 Urban St, Los Angeles, CA 90012",
+        "phone": "(213) 555-5566",
+        "website": "https://www.cityscapearchitects.com",
+        "image": "cityscape_architects.jpg",
+        "membership_level": 1,
+        "industry": "Architecture & Design",
+        "founded": 1995
+    }
+]
