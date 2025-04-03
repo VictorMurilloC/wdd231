@@ -5,12 +5,12 @@ body {
 header {
     margin: 1rem auto;
     border: 1px solid #366d85;
-    box-shadow: 2px 2px 5px #366d85;
+    box-shadow: 2px 2px 5px #f6f7f8;
 }
 
 h1, h2, h3 {
     font-family: "Playfair Display", serif;
-    background-color: #468fafc9;
+    background-color: #f6f7f8;
     margin: 0;
     padding: 1rem;
 }
@@ -29,7 +29,7 @@ section, footer {
     background-color: #66cefa96;
     margin: 1rem;
     border: 1px solid #366d85;
-    box-shadow: 2px 2px 5px #366d85;
+    box-shadow: 2px 2px 5px #f6f7f8;
 }
 
 section img {
@@ -38,5 +38,5 @@ section img {
     display: block;
     margin: 1rem auto;
     border: 1px solid #366d85;
-    box-shadow: 2px 2px 5px #366d85;
+    box-shadow: 2px 2px 5px #f6f7f8;
 }
