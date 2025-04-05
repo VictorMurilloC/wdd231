@@ -1,0 +1,53 @@
+{
+    "places": [
+      {
+        "name": "Panama Canal",
+        "address": "Panama Canal, Panama City, Panama",
+        "imageURL": "images/PanamaCanal.webp",
+        "description": "One of the world’s most impressive engineering feats, the Panama Canal connects the Atlantic and Pacific Oceans, offering a fascinating experience through its locks and historical sites."
+      },
+      {
+        "name": "Casco Viejo",
+        "address": "Casco Viejo, Panama City, Panama",
+        "imageURL": "images/CascoViejo.webp",
+        "description": "A UNESCO World Heritage site, this charming colonial district features colorful buildings, cobblestone streets, and vibrant nightlife, offering a peek into Panama’s rich history and culture."
+      },
+      {
+        "name": "Bocas del Toro",
+        "address": "Bocas del Toro, Panama",
+        "imageURL": "images/BocasDelToro.webp",
+        "description": "A popular tourist destination known for its vibrant nightlife, beautiful beaches, snorkeling, and diving opportunities in crystal-clear waters."
+      },
+      {
+        "name": "Boquete",
+        "address": "Boquete, Chiriquí, Panama",
+        "imageURL": "images/Boquete.webp",
+        "description": "Nestled in the mountains, Boquete offers hiking, coffee tours, and a cooler climate, perfect for nature lovers and those wanting to experience Panama’s scenic countryside."
+      },
+      {
+        "name": "San Blas Islands",
+        "address": "San Blas Archipelago, Panama",
+        "imageURL": "images/SanBlasIslands.webp",
+        "description": "A beautiful archipelago of over 300 islands, perfect for relaxing on white-sand beaches, swimming, and immersing in the indigenous Guna Yala culture."
+      },
+      {
+        "name": "Coiba National Park",
+        "address": "Coiba Island, Panama",
+        "imageURL": "images/CoibaNationalPark.webp",
+        "description": "A UNESCO World Heritage Site, this park is famous for its biodiversity, offering incredible opportunities for snorkeling, diving, and wildlife spotting."
+      },
+      {
+        "name": "Metropolitan Natural Park",
+        "address": "Panama City, Panama",
+        "imageURL": "images/MetropolitanNaturalPark.webp",
+        "description": "This urban rainforest is a tranquil escape with hiking trails, bird watching, and a panoramic view of Panama City."
+      },
+      {
+        "name": "Pearl Islands",
+        "address": "Las Perlas Archipelago, Panama",
+        "imageURL": "images/PearlIslands.webp",
+        "description": "A secluded paradise offering crystal-clear waters, perfect for diving, snorkeling, and exploring remote beaches."
+      }
+    ]
+  }
+  
