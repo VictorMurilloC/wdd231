@@ -36,5 +36,9 @@
     <footer>
         <p>&copy;<span id="currentYear"></span> - Victor Murillo - Panama</p>
     </footer>
+    <script>
+        document.getElementById("currentYear").textContent = new Date().getFullYear();
+        document.getElementById("modDate").textContent = document.lastModified;
+      </script>
 </body>
 </html>
