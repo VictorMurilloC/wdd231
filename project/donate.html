@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Donate to Paws & Hearts Rescue">
+    <meta name="author" content="Victor Murillo">
+    <title>Donate - Paws & Hearts Rescue</title>
+    <link rel="stylesheet" href="styles/site.css">
+</head>
+<body>
+    <header>
+        <h1>Donate to Paws & Hearts Rescue</h1>
+        <nav>
+            <a href="index.html">Home</a> | 
+            <a href="adopt.html">Adopt</a> | 
+            <a href="attributions.html">Attributions</a>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <h2>Your Generosity Saves Lives</h2>
+            <p>Your donation helps us provide food, shelter, medical care, and love to the animals in our care. Every little bit counts!</p>
+            <h3>Ways to Donate</h3>
+            <ul>
+                <li><strong>One-Time Donation:</strong> Make a one-time gift using the button below.</li>
+                <li><strong>Monthly Donation:</strong> Become a monthly donor and support us throughout the year.</li>
+            </ul>
+            <h3>Donation Options</h3>
+            <form id="donation-form" action="#">
+                <label for="amount">Donation Amount ($):</label>
+                <input type="number" id="amount" name="amount" min="1" required>
+                <br>
+                <label for="payment-method">Payment Method:</label>
+                <select id="payment-method" name="payment-method" required>
+                    <option value="credit-card">Credit Card</option>
+                    <option value="paypal">PayPal</option>
+                    <option value="bank-transfer">Bank Transfer</option>
+                </select>
+                <br>
+                <button type="submit">Donate</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy;<span id="currentYear"></span> - Victor Murillo - Panama</p>
+    </footer>
+
+    <script>
+        // Auto update year in footer
+        document.getElementById('currentYear').textContent = new Date().getFullYear();
+    </script>
+</body>
+</html>

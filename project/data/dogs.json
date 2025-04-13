@@ -1,0 +1,82 @@
+[
+    {
+      "id": 1,
+      "name": "Buddy",
+      "breed": "Golden Retriever",
+      "age": 3,
+      "image": "images/buddy.jpg",
+      "description": "Loyal and friendly, loves playing fetch."
+    },
+    {
+      "id": 2,
+      "name": "Luna",
+      "breed": "Husky",
+      "age": 2,
+      "image": "images/luna.jpg",
+      "description": "Energetic and vocal, great for active owners."
+    },
+    {
+      "id": 3,
+      "name": "Max",
+      "breed": "Labrador",
+      "age": 4,
+      "image": "images/max.jpg",
+      "description": "Gentle, good with kids and other pets."
+    },
+    {
+      "id": 4,
+      "name": "Bella",
+      "breed": "Beagle",
+      "age": 1,
+      "image": "images/bella.jpg",
+      "description": "Curious and loving, enjoys cuddles."
+    },
+    {
+      "id": 5,
+      "name": "Rocky",
+      "breed": "Boxer",
+      "age": 5,
+      "image": "images/rocky.jpg",
+      "description": "Protective and affectionate, loves to be around people."
+    },
+    {
+      "id": 6,
+      "name": "Daisy",
+      "breed": "Shih Tzu",
+      "age": 2,
+      "image": "images/daisy.jpg",
+      "description": "Small and sweet, perfect for apartment living."
+    },
+    {
+      "id": 7,
+      "name": "Zeus",
+      "breed": "German Shepherd",
+      "age": 3,
+      "image": "images/zeus.jpg",
+      "description": "Smart and protective, excellent working dog."
+    },
+    {
+      "id": 8,
+      "name": "Molly",
+      "breed": "Poodle",
+      "age": 4,
+      "image": "images/molly.jpg",
+      "description": "Elegant and intelligent, hypoallergenic coat."
+    },
+    {
+      "id": 9,
+      "name": "Charlie",
+      "breed": "Border Collie",
+      "age": 2,
+      "image": "images/charlie.jpg",
+      "description": "High-energy and smart, loves challenges."
+    },
+    {
+      "id": 10,
+      "name": "Ruby",
+      "breed": "Cocker Spaniel",
+      "age": 3,
+      "image": "images/ruby.jpg",
+      "description": "Gentle and cheerful, great companion dog."
+    }
+  ]

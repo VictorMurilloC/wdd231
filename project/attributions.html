@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Attributions for Paws & Hearts Rescue Website">
+    <meta name="author" content="Victor Murillo">
+    <title>Attributions - Paws & Hearts Rescue</title>
+    <link rel="stylesheet" href="styles/site.css">
+</head>
+<body>
+    <header>
+        <h1>Attributions</h1>
+        <nav>
+            <a href="index.html">Home</a> | 
+            <a href="adopt.html">Adopt</a> | 
+            <a href="donate.html">Donate</a>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <h2>Image and Content Credits</h2>
+            <p>The following resources were used in the development of this website:</p>
+            <ul>
+                <li><strong>Images:</strong> All dog images are sourced from <a href="https://unsplash.com/">Unsplash</a>.</li>
+                <li><strong>Icons:</strong> Icons used are from <a href="https://fontawesome.com/">Font Awesome</a>.</li>
+                <li><strong>API Data:</strong> Dog data is sourced from a local JSON file created for this project.</li>
+            </ul>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy;<span id="currentYear"></span> - Victor Murillo - Panama</p>
+    </footer>
+
+    <script>
+        // Auto update year in footer
+        document.getElementById('currentYear').textContent = new Date().getFullYear();
+    </script>
+</body>
+</html>

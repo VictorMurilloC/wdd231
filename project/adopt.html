@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Adopt a dog from Paws & Hearts Rescue">
+    <meta name="author" content="Victor Murillo">
+    <title>Adopt a Dog - Paws & Hearts Rescue</title>
+    <link rel="stylesheet" href="styles/site.css">
+    <script src="scripts/dogs.js" defer></script>
+</head>
+<body>
+    <header>
+        <h1>Adopt a Dog</h1>
+        <nav>
+            <a href="index.html">Home</a> | 
+            <a href="donate.html">Donate</a> | 
+            <a href="attributions.html">Attributions</a>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <h2>Meet Our Adoptable Dogs</h2>
+            <div id="dog-list" class="grid"></div>
+        </section>
+    </main>
+
+    <!-- Modal -->
+    <div id="dog-modal" class="modal">
+        <div class="modal-content">
+            <span class="close-button">&times;</span>
+            <div id="modal-body"></div>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy;<span id="currentYear"></span> - Victor Murillo - Panama</p>
+    </footer>
+</body>
+</html>

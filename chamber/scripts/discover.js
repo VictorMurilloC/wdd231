@@ -1,74 +1,50 @@
-const directoryUrl = 'data/discover.json';
-
-const displayPlaces = (places) => {
-    const grid = document.querySelector('div.discover-grid');
-
-    places.forEach((place) => {
-        let card = document.createElement('section');
-        card.classList.add('place-card');
-
-        let title = document.createElement('h2');
-        title.textContent = place.name;
-
-        let figure = document.createElement('figure');
-        let image = document.createElement('img');
-        image.setAttribute('src', place.imageURL);
-        image.setAttribute('alt', `${place.name}`);
-        image.setAttribute('loading', 'lazy');
-        image.setAttribute('width', '300');
-        image.setAttribute('height', '200');
-        figure.appendChild(image);
-
-        let address = document.createElement('address');
-        address.textContent = place.address;
-
-        let description = document.createElement('p');
-        description.textContent = place.description;
-
-        let button = document.createElement('button');
-        button.textContent = 'Learn More';
-        button.classList.add('learn-more-btn');
-
-        card.appendChild(title);
-        card.appendChild(figure);
-        card.appendChild(address);
-        card.appendChild(description);
-        card.appendChild(button);
-
-        grid.appendChild(card);
-    });
-};
-
-async function getPlaces() {
-    const response = await fetch(directoryUrl);
-    const data = await response.json();
-    displayPlaces(data.places);
-}
-
-getPlaces();
-
-const displayVisitMessage = () => {
-    const sidebar = document.querySelector('.visit-tab');
+// Function to calculate and display the visit message using localStorage
+function displayVisitMessage() {
     const lastVisit = localStorage.getItem('lastVisit');
-    const now = new Date();
+    const now = Date.now();
+    let message = '';
 
     if (!lastVisit) {
-        sidebar.textContent = "Welcome! Let us know if you have any questions.";
+        message = 'Welcome! Let us know if you have any questions.';
     } else {
-        const lastVisitDate = new Date(lastVisit);
-        const timeDifference = now - lastVisitDate;
-        const daysDifference = Math.floor(timeDifference / (1000 * 60 * 60 * 24));
-
+        const timeDifference = now - lastVisit;
+        const daysDifference = Math.floor(timeDifference / (1000 * 3600 * 24));
+        
         if (daysDifference < 1) {
-            sidebar.textContent = "Back so soon! Awesome!";
-        } else if (daysDifference === 1) {
-            sidebar.textContent = "You last visited 1 day ago.";
+            message = 'Back so soon! Awesome!';
         } else {
-            sidebar.textContent = `You last visited ${daysDifference} days ago.`;
+            message = `You last visited ${daysDifference} ${daysDifference === 1 ? 'day' : 'days'} ago.`;
         }
     }
 
-    localStorage.setItem('lastVisit', now.toISOString());
-};
+    document.querySelector('.visit-tab').textContent = message;
+    localStorage.setItem('lastVisit', now);
+}
 
-displayVisitMessage();
+// Fetch the JSON data and populate the cards
+function loadItems() {
+    fetch('data/discover.json')
+        .then(response => response.json())
+        .then(data => {
+            const discoverGrid = document.getElementById('discoverGrid');
+            data.places.forEach(place => {
+                const card = document.createElement('div');
+                card.classList.add('card');
+                card.innerHTML = `
+                    <h2>${place.name}</h2>
+                    <figure>
+                        <img src="${place.imageURL}" alt="${place.name}">
+                    </figure>
+                    <address>${place.address}</address>
+                    <p>${place.description}</p>
+                    <button>Learn More</button>
+                `;
+                discoverGrid.appendChild(card);
+            });
+        });
+}
+
+document.addEventListener('DOMContentLoaded', () => {
+    displayVisitMessage();
+    loadItems();
+});
